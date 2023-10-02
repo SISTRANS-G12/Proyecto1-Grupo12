@@ -1,5 +1,39 @@
-En esta carpeta se encuentran:
+-------------------------------------------------------------------------------------------------------
+EXPLICACION DEL PROYECTO Y LA ENTREGA #1
+-------------------------------------------------------------------------------------------------------
+En esta carpeta se encuentran los documentos 
+y archivos requeridos para el Proyecto #1
 
-1. Diagrama de Modelo UML
-2. Diagrama de Modelo Entidad/Relacion
-3. Archivo Excel con Modelo Relacional
+Para la aplicacion se realizaron 
+todas las clases correspondientes 
+a la capa de MODELO y REPOSITORIO. 
+-------------------------------------------------------------------------------------------------------
+CODIGO
+-------------------------------------------------------------------------------------------------------
+En la clase principal ProyectoApplication.java 
+se implemento una interfaz de consola para 
+realizar los requerimientos funcionales de la aplicacion.
+
+Debido a mala planeacion y problemas de tiempo, 
+no se pudieron implementar los requerimientos funcionales al 100%.
+
+Se implemento completamente la capa de back-end necesaria para correrlos,
+pero falto la utilizacion de los metodos de los repositorios para 
+efectivamente realizar las operaciones CRUD por el usuario de la aplicacion.
+-------------------------------------------------------------------------------------------------------
+OPERACIONES CRUD
+-------------------------------------------------------------------------------------------------------
+Es decir, por ejemplo, para el RF2: CRUD Usuario...
+
+	-Existe una entidad llamada Usuario en la capa de Modelo, 
+	que contiene el frame de los atributos y llaves.
+
+	-Existe un repositorio llamado UsuarioRepository en la capa de Repositorio,
+	que contiene todos los metodos necesarios para realizar las operaciones CRUD
+
+Sin embargo, en la capa de interaccion con el usuario de la aplicacion(interfaz por consola) 
+fallo la implementacion de las consultas adecuadas al repositorio para que un usuario externo
+pudiera efectivamente realizar las operaciones CRUD requeridas por el RF.
+
+PARA las proximas entregas del proyecto procuraremos mejorar este aspecto.
+
