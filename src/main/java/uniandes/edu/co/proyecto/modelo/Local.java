@@ -17,14 +17,14 @@ public class Local {
 
     //Atributos
     private Integer capacidad;
-    private Boolean ocupado;
+    private Integer ocupado;
     private String horario_servicio;
 
     //Constructor
     public Local()
     {;}
 
-    public Local(Integer capacidad, Boolean ocupado, String horario_servicio)
+    public Local(Integer capacidad, Integer ocupado, String horario_servicio)
     {
         this.capacidad = capacidad;
         this.ocupado = ocupado;
@@ -48,11 +48,11 @@ public class Local {
         this.capacidad = capacidad;
     }
 
-    public Boolean getOcupado() {
+    public Integer getOcupado() {
         return ocupado;
     }
 
-    public void setOcupado(Boolean ocupado) {
+    public void setOcupado(Integer ocupado) {
         this.ocupado = ocupado;
     }
 

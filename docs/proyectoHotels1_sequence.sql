@@ -1,3 +1,7 @@
+-- Creacion del secuenciador
+
+CREATE SEQUENCE proyectoHotels1_sequence;
+
 CREATE TABLE checkins (
     id          NUMBER NOT NULL,
     reservas_id NUMBER NOT NULL
@@ -136,6 +140,10 @@ CREATE TABLE usuarios (
     reservas_id        NUMBER
 );
 
+
+ -- Constraints
+
+
 ALTER TABLE usuarios ADD CONSTRAINT usuarios_pk PRIMARY KEY ( id );
 
 ALTER TABLE checkins
@@ -197,3 +205,6 @@ ALTER TABLE usuarios
 ALTER TABLE usuarios
     ADD CONSTRAINT usuarios_tiposusuario_fk FOREIGN KEY ( tiposusuario_id )
         REFERENCES tiposusuario ( id );
+
+
+COMMIT;

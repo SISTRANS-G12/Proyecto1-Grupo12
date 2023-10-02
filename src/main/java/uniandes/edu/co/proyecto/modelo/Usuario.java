@@ -19,7 +19,7 @@ public class Usuario {
 
     //Atributos
     private String tipo_documento;
-    private String numero_documento;
+    private Integer numero_documento;
     private String nombre;
     private String correo_electronico;
 
@@ -37,7 +37,7 @@ public class Usuario {
     public Usuario()
     {;}
 
-    public Usuario(String tipo_documento, String numero_documento, String nombre, String correo_electronico, TipoUsuario TiposUsuario_id, Reserva Reservas_id)
+    public Usuario(String tipo_documento, Integer numero_documento, String nombre, String correo_electronico, TipoUsuario TiposUsuario_id, Reserva Reservas_id)
     {
         this.tipo_documento = tipo_documento;
         this.numero_documento = numero_documento;
@@ -64,11 +64,11 @@ public class Usuario {
         this.tipo_documento = tipo_documento;
     }
 
-    public String getNumero_documento() {
+    public Integer getNumero_documento() {
         return numero_documento;
     }
 
-    public void setNumero_documento(String numero_documento) {
+    public void setNumero_documento(Integer numero_documento) {
         this.numero_documento = numero_documento;
     }
 

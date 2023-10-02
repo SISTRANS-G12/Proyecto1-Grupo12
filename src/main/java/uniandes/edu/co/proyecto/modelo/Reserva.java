@@ -22,8 +22,8 @@ public class Reserva {
     private String fecha_entrada;
     private String fecha_salida;
     private Integer numero_personas;
-    private Boolean check_in;
-    private Boolean check_out;
+    private Integer check_in;
+    private Integer check_out;
 
     //FK
     @ManyToOne
@@ -39,7 +39,7 @@ public class Reserva {
     public Reserva()
     {;}
 
-    public Reserva(String fecha_entrada, String fecha_salida, Integer numero_personas, Boolean check_in, Boolean check_out, PlanConsumo PlanesConsumo_id, Habitacion Habitaciones_id)
+    public Reserva(String fecha_entrada, String fecha_salida, Integer numero_personas, Integer check_in, Integer check_out, PlanConsumo PlanesConsumo_id, Habitacion Habitaciones_id)
     {
         this.fecha_entrada = fecha_entrada;
         this.fecha_salida = fecha_salida;
@@ -83,19 +83,19 @@ public class Reserva {
         this.numero_personas = numero_personas;
     }
 
-    public Boolean getCheck_in() {
+    public Integer getCheck_in() {
         return check_in;
     }
 
-    public void setCheck_in(Boolean check_in) {
+    public void setCheck_in(Integer check_in) {
         this.check_in = check_in;
     }
 
-    public Boolean getCheck_out() {
+    public Integer getCheck_out() {
         return check_out;
     }
 
-    public void setCheck_out(Boolean check_out) {
+    public void setCheck_out(Integer check_out) {
         this.check_out = check_out;
     }
 

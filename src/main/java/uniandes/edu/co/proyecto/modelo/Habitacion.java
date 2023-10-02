@@ -18,7 +18,7 @@ public class Habitacion{
     private Integer id;
 
     //Atributos
-    private Boolean disponible;
+    private Integer disponible;
     private Integer cuenta;
 
     //FK
@@ -31,7 +31,7 @@ public class Habitacion{
     public Habitacion()
     {;}
 
-    public Habitacion(Boolean disponible, Integer cuenta, TipoHabitacion TiposHabitacion_id)
+    public Habitacion(Integer disponible, Integer cuenta, TipoHabitacion TiposHabitacion_id)
     {
         this.disponible = disponible;
         this.cuenta = cuenta;
@@ -47,11 +47,11 @@ public class Habitacion{
         this.id = id;
     }
 
-    public Boolean getDisponible() {
+    public Integer getDisponible() {
         return disponible;
     }
 
-    public void setDisponible(Boolean disponible) {
+    public void setDisponible(Integer disponible) {
         this.disponible = disponible;
     }
 

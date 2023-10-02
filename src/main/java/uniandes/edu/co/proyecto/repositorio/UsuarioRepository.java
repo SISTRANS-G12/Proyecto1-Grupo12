@@ -17,7 +17,7 @@ public interface UsuarioRepository extends JpaRepository<Usuario, Integer>{
     @Transactional
     @Query(value = "INSERT INTO Usuarios (id, tipo_documento, numero_documento, nombre, correo_electronico, TiposUsuario_id, Reservas_id) VALUES ( proyectoHotels1_sequence.nextval , :tipo_documento, :numero_documento, :nombre, :correo_electronico, :TiposUsuario_id, :Reservas_id)", nativeQuery = true)
     void insertarUsuario(@Param("tipo_documento") String tipo_documento,
-                         @Param("numero_documento") String numero_documento,
+                         @Param("numero_documento") Integer numero_documento,
                          @Param("nombre") String nombre,
                          @Param("correo_electronico") String correo_electronico,
                          @Param("TiposUsuario_id") Integer TiposUsuario_id,
@@ -35,7 +35,7 @@ public interface UsuarioRepository extends JpaRepository<Usuario, Integer>{
     @Query(value = "UPDATE Usuarios SET tipo_documento = :tipo_documento, numero_documento = :numero_documento, nombre = :nombre, correo_electronico = :correo_electronico, TiposUsuario_id = :TiposUsuario_id, Reservas_id = :Reservas_id WHERE id = :id", nativeQuery = true)
     void actualizarUsuario(@Param("id") long id,
                           @Param("tipo_documento") String tipo_documento,
-                          @Param("numero_documento") String numero_documento,
+                          @Param("numero_documento") Integer numero_documento,
                           @Param("nombre") String nombre,
                           @Param("correo_electronico") String correo_electronico,
                           @Param("TiposUsuario_id") Integer TiposUsuario_id,

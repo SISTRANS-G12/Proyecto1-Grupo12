@@ -17,7 +17,7 @@ public interface LocalRepository extends JpaRepository<Local, Integer>{
     @Transactional
     @Query(value = "INSERT INTO Locales (id, capacidad, ocupado, horario_servicio) VALUES ( proyectoHotels1_sequence.nextval , :capacidad, :ocupado, :horario_servicio)", nativeQuery = true)
     void insertarLocal(@Param("capacidad") Integer capacidad,
-                         @Param("ocupado") Boolean ocupado,
+                         @Param("ocupado") Integer ocupado,
                          @Param("horario_servicio") String horario_servicio);
 
     //READ
@@ -32,7 +32,7 @@ public interface LocalRepository extends JpaRepository<Local, Integer>{
     @Query(value = "UPDATE Locales SET capacidad = :capacidad, ocupado = :ocupado, horario_servicio = :horario_servicio WHERE id = :id", nativeQuery = true)
     void actualizarLocal(@Param("id") long id,
                           @Param("capacidad") Integer capacidad,
-                          @Param("ocupado") Boolean ocupado,
+                          @Param("ocupado") Integer ocupado,
                           @Param("horario_servicio") String horario_servicio);
 
     //DELETE
