@@ -1,0 +1,64 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D02572E2-2339-519D-670B-7CB7ECEE6011" name="CheckOuts">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>DF353423-F73C-993B-E06D-BF31C73FC50E</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<ordsAlias>checkout</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="365DC7B2-BE06-0BF7-22C2-84E7C1D76649">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>82EF01F9-ACCD-90AC-0D56-485A7052DD9C</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Reservas_id" id="BE842460-443E-143E-BC29-8EA9CDE67ADB">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>EC40585F-9B98-45BD-A9E5-14C46EBB1C16</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1EE1150E-0D2E-D097-4595-F01AB306186B" referredColumn="835DE8A8-140E-9B15-93ED-717C310FE939"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="81B5B5D7-5F0E-36AC-FFDA-2A1065F55DDC" name="CheckOuts_PK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>33C504A8-871B-CEB2-BC20-17A321E68F1C</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="365DC7B2-BE06-0BF7-22C2-84E7C1D76649"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEC7721E-8E6B-BE2B-C874-5D72E5F954C4" name="CheckOuts_Reservas_FK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>B8C1D53A-3D62-D018-26EB-101C45DB19A0</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BE842460-443E-143E-BC29-8EA9CDE67ADB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

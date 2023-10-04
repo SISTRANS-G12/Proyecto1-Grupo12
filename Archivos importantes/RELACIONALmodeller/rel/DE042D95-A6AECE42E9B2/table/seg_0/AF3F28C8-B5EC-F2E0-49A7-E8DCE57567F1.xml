@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="AF3F28C8-B5EC-F2E0-49A7-E8DCE57567F1" name="Tienen">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<ordsAlias>relation_20</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Dotaciones_id" id="7C8AE986-5333-C4B9-BFB4-7E06302B26A7">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="20266E80-AD71-2E0D-E6DE-10BE631B9664" referredColumn="68F9C07C-F976-73C8-FDFF-BC85024AED99"/>
+</associations>
+</Column>
+<Column name="TiposHabitacion_id" id="EFBE9627-D242-569B-2E14-A797CD91DABE">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3A86CD4B-EAAB-2E6F-CF4F-0021F9F31520" referredColumn="F805EF6C-6D3F-1907-2D4A-BA737C7A5341"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7514F713-D521-80AC-221F-21701B552FCF" name="Tienen_PK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C8AE986-5333-C4B9-BFB4-7E06302B26A7"/>
+<colUsage columnID="EFBE9627-D242-569B-2E14-A797CD91DABE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E127FA4-5655-3F36-E9E7-8F4B51FCEAA6" name="Tienen_Dotaciones_FK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>2C86445D-3CBC-8BC3-074A-AA6FF8290DB4</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7C8AE986-5333-C4B9-BFB4-7E06302B26A7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="55F6868F-ADAF-3A29-3C3F-BBBF008D962B" name="Tienen_TiposHabitacion_FK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>2C86445D-3CBC-8BC3-074A-AA6FF8290DB4</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EFBE9627-D242-569B-2E14-A797CD91DABE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

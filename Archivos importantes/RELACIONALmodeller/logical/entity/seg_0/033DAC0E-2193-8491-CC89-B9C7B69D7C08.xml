@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="033DAC0E-2193-8491-CC89-B9C7B69D7C08" name="Usuario">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 02:15:24 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="939335EC-0D61-284C-07AC-C69CA7761E5E">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 02:15:34 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tipo_documento" id="5776F7B7-CF25-3796-F637-7445152CCDE9">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 02:15:45 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="numero_documento" id="B5596020-B58D-5CE2-1DA5-238CBA3176B4">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 02:16:07 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="DC9CFDF8-5BD9-313C-BB5A-2B2180544114">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 02:16:46 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correo_electronico" id="19A27943-BEB7-BFC3-A155-C3A55E8052EB">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 02:16:59 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol" id="27676EE9-BA79-9FDE-7C3C-0888A81AC875">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 02:17:15 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="C21CA5CE-A752-854E-4FD6-0CC85858F982">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:19:46 UTC</createdTime>
+<generatorID>E3B3C80C-6844-1C0A-7EF1-926187B781A6</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>DC129AC3-A670-32C6-68AB-F2E4B914E5AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="B2ABADA8-DA80-174E-6966-3E3E649593E7">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:21:06 UTC</createdTime>
+<generatorID>69F38055-D8DF-069D-A898-1910FF2626E6</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<referedAttribute>D15BE7A3-431C-6FD0-788D-F71F62E75F92</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FD1A87DD-8C71-D9FD-BF65-B9A722501DC0" name="Usuario PK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 02:15:36 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>939335EC-0D61-284C-07AC-C69CA7761E5E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

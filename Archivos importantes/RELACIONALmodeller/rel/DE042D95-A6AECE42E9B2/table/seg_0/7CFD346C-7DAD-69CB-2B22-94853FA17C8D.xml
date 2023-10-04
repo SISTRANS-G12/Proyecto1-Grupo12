@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CFD346C-7DAD-69CB-2B22-94853FA17C8D" name="Usuarios">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>033DAC0E-2193-8491-CC89-B9C7B69D7C08</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<ordsAlias>usuario</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="57B9F668-92D2-46E4-B31F-0DCF6B4DF317">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>939335EC-0D61-284C-07AC-C69CA7761E5E</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo_documento" id="BE74E0CB-E790-8F70-73A2-0097D0A36007">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>5776F7B7-CF25-3796-F637-7445152CCDE9</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="numero_documento" id="65B94F2C-2A99-2220-17D2-7642DB057320">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>B5596020-B58D-5CE2-1DA5-238CBA3176B4</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="F3A92731-6B54-21A5-A9E5-418C21A62C2C">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>DC9CFDF8-5BD9-313C-BB5A-2B2180544114</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correo_electronico" id="99860A4E-F022-3D97-1A04-02862E29F35E">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>19A27943-BEB7-BFC3-A155-C3A55E8052EB</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TiposUsuario_id" id="318EBDC6-67FA-DD42-019E-956CE7175EBB">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>C21CA5CE-A752-854E-4FD6-0CC85858F982</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="AC78DC01-C6D1-79B5-3D7C-ECB1E32E00D9" referredColumn="93B3F326-7B1C-FB49-0601-F5BCF3A98749"/>
+</associations>
+</Column>
+<Column name="Reservas_id" id="DBB3D523-D07E-C4FB-3C22-2E6D9669D4A0">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>B2ABADA8-DA80-174E-6966-3E3E649593E7</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="F217D7E6-1F3E-1934-21CE-E5C61CDD349D" referredColumn="835DE8A8-140E-9B15-93ED-717C310FE939"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="638B0FA9-A1D4-12A2-5A13-A1F535E2B8D5" name="Usuarios_PK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>FD1A87DD-8C71-D9FD-BF65-B9A722501DC0</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="57B9F668-92D2-46E4-B31F-0DCF6B4DF317"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="770A3667-80D7-0C42-FD78-4229482EC952" name="Usuarios_Reservas_FK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>69F38055-D8DF-069D-A898-1910FF2626E6</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DBB3D523-D07E-C4FB-3C22-2E6D9669D4A0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3C2B18B-EA8A-7668-85D2-5B1C5694EDEC" name="Usuarios_TiposUsuario_FK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>E3B3C80C-6844-1C0A-7EF1-926187B781A6</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="318EBDC6-67FA-DD42-019E-956CE7175EBB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

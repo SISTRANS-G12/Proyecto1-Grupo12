@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="09E5C3A5-584E-E55C-9826-2456F6DB059D" name="ConsumoServicio">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 02:37:31 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fecha_consumo" id="5EA5ADE3-3ADF-4F1F-C9B5-00CA3ABCD217">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 02:37:36 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id" id="50D0985D-7046-C6AF-FD48-32650475D7A4">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:32:16 UTC</createdTime>
+<generatorID>5C1E6407-9768-2391-1113-F278E91FD788</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<referedAttribute>AB807FD6-967E-2E17-7754-84178C3209AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="37572A6A-784D-6110-3A97-2591780569E0" name="ConsumoServicio PK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 02:37:45 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5EA5ADE3-3ADF-4F1F-C9B5-00CA3ABCD217</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ED871088-2E37-12F2-258D-80FD0D199508" name="Dotaciones">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>E7051256-9DE9-E207-EFA2-DF4FF493929A</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<ordsAlias>dotacion</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="68F9C07C-F976-73C8-FDFF-BC85024AED99">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>1CA3B644-0EDD-000C-698D-D4196CA01FC6</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="44D6A75D-ED69-CB7F-9890-A42D5BF860B8">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>B099F0C1-27EE-5FC9-5FCF-F9CDB598EE3B</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="14932E04-04A1-5AA1-F2BB-33A4FD973978">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>98F9140A-20EE-19AB-4EDD-5E61FF44ADCD</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4AD953C2-A11E-F75A-C5CC-83C9C95B587B" name="Dotaciones_PK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>C28C5CDC-09CB-154B-D087-0EE4F10CF7AE</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="68F9C07C-F976-73C8-FDFF-BC85024AED99"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9371BDA8-5989-3816-7AB6-B861135BEC95" name="Servicios">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>EC178826-6416-0782-C1C5-91EDA2CB62FF</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<ordsAlias>servicio</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7FB35B8D-0DBF-A1AC-C45F-44E9514CF1C3">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>AB807FD6-967E-2E17-7754-84178C3209AA</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio" id="400FD313-BECA-A59E-7E83-F6F6E830EEE1">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>814BFB1A-8A3C-D16A-3281-7733C1F34F05</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="1EB3087C-080D-64DB-C0FE-BFCB69E22B41">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>39DDD31E-E03A-684A-7767-8437E9DAEE86</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="BF22F426-73E3-F763-4ACB-8DAE6D448A1A">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>B2717734-9FBD-D0E0-CB3D-1B90F672E817</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="incluido" id="2ECA9965-4D0D-8516-3A2A-F94D91021F72">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>EF297E8D-FDBA-F415-1241-BB75A48595BB</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1 BYTE</dataTypeSize>
+<ownDataTypeParameters>1 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="caracteristica" id="3FC7A018-B419-5A81-FEF6-DE2C9F437A33">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>6796E1F2-3E57-327A-FFE0-BDED156D147F</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="TiposServicio_id" id="A612D932-DE50-8AD6-6FD7-D7C94A9CDF63">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>7C431555-4ACB-E653-CB17-045FB8C398E1</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="59525D21-D50F-449D-5E69-DBA0229A7D87" referredColumn="D85111FF-1A65-7EBC-C702-2A6E13E33897"/>
+</associations>
+</Column>
+<Column name="Locales_id" id="DF2D53B5-C75A-6331-7E32-058E42C63E43">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="973DE882-E24F-F911-A190-563D14405EA6" referredColumn="269F1E2D-E7DD-3811-850B-D7599374BCF2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C0BDFD8D-117F-367B-EBF9-3740BDD6C502" name="Servicios_PK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>B9843B33-B47A-0CC9-7284-9CA70863917B</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7FB35B8D-0DBF-A1AC-C45F-44E9514CF1C3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E6DFEBE5-B15C-C6A5-C01B-E5D73FBB55A6" name="Servicios_Localesl_FK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>0C230B02-D6D5-1EEB-0507-60966D3B5ED7</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DF2D53B5-C75A-6331-7E32-058E42C63E43"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0D691D14-7DCC-10F7-1F96-9B96EF0B3551" name="Servicios_TiposServicio_FK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>CDE08652-647B-305D-B9D5-13039F9D89A4</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A612D932-DE50-8AD6-6FD7-D7C94A9CDF63"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

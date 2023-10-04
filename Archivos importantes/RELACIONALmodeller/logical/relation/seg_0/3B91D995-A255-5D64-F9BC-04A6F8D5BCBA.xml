@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="habitacion" directorySegmentName="seg_0" id="3B91D995-A255-5D64-F9BC-04A6F8D5BCBA">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:31:13 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<sourcePk>939CB1ED-00CD-2953-3AAB-E9735F8A400B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6260473F-1172-59B7-8FDB-D0FEF02AC150</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>7CA9E21E-80D3-1018-98CB-4F7B6B43C0AD</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

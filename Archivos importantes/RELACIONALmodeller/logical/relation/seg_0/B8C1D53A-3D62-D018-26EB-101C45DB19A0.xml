@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="checkIn" directorySegmentName="seg_0" id="B8C1D53A-3D62-D018-26EB-101C45DB19A0">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:30:54 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<sourcePk>16929CBD-E7CE-8F69-48BF-413D1595900A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7CA9E21E-80D3-1018-98CB-4F7B6B43C0AD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>DF353423-F73C-993B-E06D-BF31C73FC50E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

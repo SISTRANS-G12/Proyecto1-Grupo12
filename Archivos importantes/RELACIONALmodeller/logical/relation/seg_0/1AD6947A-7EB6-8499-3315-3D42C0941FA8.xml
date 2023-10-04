@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="checkOut" directorySegmentName="seg_0" id="1AD6947A-7EB6-8499-3315-3D42C0941FA8">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:31:04 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<engineerTo>
+<item key="DE042D95-9EB0-280E-8D45-A6AECE42E9B2" value="true"/>
+</engineerTo>
+<sourcePk>16929CBD-E7CE-8F69-48BF-413D1595900A</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>7CA9E21E-80D3-1018-98CB-4F7B6B43C0AD</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>A33B7C80-1166-4313-5C4B-0523692E2555</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

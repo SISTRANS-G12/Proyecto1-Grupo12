@@ -1,0 +1,90 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA60F13D-51A4-4B32-5956-8CD4D12EF604" name="Reservaciones">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<ordsAlias>reservas</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Habitaciones_id" id="D0B5FD1D-AE35-895A-AA81-5ADB82394BBC">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8CF1DE9C-2968-A99F-FA95-0B6F06CAB08B" referredColumn="6F4C0D63-4DEE-C55D-A3CE-E31EF3183364"/>
+</associations>
+</Column>
+<Column name="fecha_reservacion" id="5DE4E391-A807-BF5B-FF02-4D4211B1FCF6">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>18AFB742-EEC4-79AE-8699-27AA95BD89CA</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Servicios_id" id="E94BE12C-6E95-4644-4AE1-A7104E9A5EFF">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>F07EDA4F-5713-2571-A6B3-97F1CD6F6A53</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="96C1C6EF-EDB1-071E-F1D5-3A09989B41A8" referredColumn="7FB35B8D-0DBF-A1AC-C45F-44E9514CF1C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9C2C347-5514-B09B-0AC9-FCB33B1CE481" name="Reservaciones_PK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0B5FD1D-AE35-895A-AA81-5ADB82394BBC"/>
+<colUsage columnID="E94BE12C-6E95-4644-4AE1-A7104E9A5EFF"/>
+<colUsage columnID="5DE4E391-A807-BF5B-FF02-4D4211B1FCF6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AAAAA85-300A-7EF5-F1AC-E60969F44D03" name="Reservaciones_Habitacion_FK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>176D90B7-9308-A076-3E1A-961BBE1CC828</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D0B5FD1D-AE35-895A-AA81-5ADB82394BBC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F3BB6079-63E8-7736-7532-B9C2337354E8" name="Reservaciones_Servicio_FK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:46:31 UTC</createdTime>
+<generatorID>4A3F6523-F251-DA61-72F2-EB3FFC420136</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E94BE12C-6E95-4644-4AE1-A7104E9A5EFF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EDC5D81F-B37F-9DF4-020A-BAE10704836B" name="Consumos">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="Habitaciones_id" id="4D7C31E4-0428-AEC6-85A0-B46ABE79DA01">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CEFFB91C-4443-1E88-2AC9-3F71D9DB40E5" referredColumn="6F4C0D63-4DEE-C55D-A3CE-E31EF3183364"/>
+</associations>
+</Column>
+<Column name="fecha_consumo" id="4FC839B1-075D-4918-38E9-B2280659C11D">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>5EA5ADE3-3ADF-4F1F-C9B5-00CA3ABCD217</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 BYTE</dataTypeSize>
+<ownDataTypeParameters>255 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Servicios_id" id="2955EF3A-F2BF-3B9E-2A4C-011526656F5A">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>50D0985D-7046-C6AF-FD48-32650475D7A4</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72448485-DD86-7184-98E9-900887FB4F1B" referredColumn="7FB35B8D-0DBF-A1AC-C45F-44E9514CF1C3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="FD6777C2-8F7A-7A5C-35FA-C2E3D62AA447" name="Consumos_PK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D7C31E4-0428-AEC6-85A0-B46ABE79DA01"/>
+<colUsage columnID="4FC839B1-075D-4918-38E9-B2280659C11D"/>
+<colUsage columnID="2955EF3A-F2BF-3B9E-2A4C-011526656F5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="049617ED-16B5-C697-2AE0-0C2EDD0922CE" name="Consumos_Habitaciones_FK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:45:24 UTC</createdTime>
+<generatorID>F9F30130-53E2-415A-3C0D-A534D437CCDF</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4D7C31E4-0428-AEC6-85A0-B46ABE79DA01"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DD4B35F-F699-036F-5D1A-BC1163A50216" name="Consumos_Servicios_FK">
+<createdBy>andre</createdBy>
+<createdTime>2023-10-01 03:46:12 UTC</createdTime>
+<generatorID>5C1E6407-9768-2391-1113-F278E91FD788</generatorID>
+<ownerDesignName>RELACIONALmodeller</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2955EF3A-F2BF-3B9E-2A4C-011526656F5A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
